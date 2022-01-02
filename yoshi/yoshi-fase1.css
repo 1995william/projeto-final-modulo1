@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: url("../personagens/fundo.jpg");
+}
+header {
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.829);
+    height: 20rem;
+}
+header > h1 {
+    padding-top: 15px;
+    font-size: 60px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(60, 255, 0);
+    text-align: center;
+}
+.negrito-m {
+    color: red;
+}
+.negrito-p {
+    color: rgb(60, 255, 0);
+}
+.negrito-b{
+    color: green;
+}
+.negrito-a {
+    color: orangered;
+}
+header p {
+    color: floralwhite;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.personagem {
+    width: 200px;
+    height: 220px;
+}
+.personagem2 {
+    width: 250px;
+    height: 250px;
+}
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input  {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-top: 50px;
+    width: 10%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+input:hover {
+    background-color: lightgray ;
+    color: black;
+}
