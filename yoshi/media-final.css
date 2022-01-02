@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+    header {
+        height: 30rem;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 20px auto ;
+    }
+    .personagem {
+        width: 100%;
+    }
+    .personagem2 {
+        width: 150px;
+        height: 150px;
+    }
+    input {
+        width: 20%;
+        margin-bottom: 30px;
+    }
+}
