@@ -63,7 +63,6 @@ Digite: 1, 2 ou 3.`));
     }
 }
 
-
 function menu () {
     location.replace("../index.html");
 }
