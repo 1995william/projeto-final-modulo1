@@ -51,11 +51,8 @@ Digite: 1, 2 ou 3.`));
         location.replace("mario-over.html");
     }
     else if (respostaFase3 == 3) {
-        alert("Marisilia salta sobre a ponte e utiliza o machado para quebrar a ponte onde está o Bowsilia. A ponte é quebrada e Bowsilia cai na piscina de lava. Mario vence a luta.");
+        alert("Marisilia salta sobre a ponte e utiliza o machado para quebrar a ponte onde está o Bowsilia. A ponte é quebrada e Bowsilia cai na piscina de lava. Marisilia vence a luta.");
         location.replace("mario-win.html");
-
-        alert("Marisilia salta sobre a ponte e utiliza o machado para quebrar a ponte onde está o Bowsilia. A ponte é quebrada e Bowsilia cai na piscina de lava. Marisilia vence a luta.")
-        location.replace("mario-win.html")
     }
     else {
         alert(` Opção inválida!
